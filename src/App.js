@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Categories from "./components/Categories";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       {/* navbar */}
       <Navbar/>
       {/* categories*/}
+      <Categories/>
       {/* featured */}
       {/* offers */}
       {/* browse */}

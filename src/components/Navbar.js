@@ -20,22 +20,22 @@ const Navbar = () =>{
                 </div>
             </div>
             {/* middle */}
-            <div className="hidden lg:flex pl-10 uppercase">
+            <div className="hidden lg:flex pl-10 uppercase cursor-pointer">
                 <ul className="text-[#c5c3c0] text-[14px] flex mr-7 font-[1000] gap-5">
-                    <li>store</li>
-                    <li>community</li>
-                    <li>about</li>
-                    <li>support</li>
+                    <li className="hover:border-b-2 pt-[8px]">store</li>
+                    <li className="hover:border-b-2 pt-[8px]">community</li>
+                    <li className="hover:border-b-2 pt-[8px]">about</li>
+                    <li className="hover:border-b-2 pt-[8px]">support</li>
                 </ul>
             </div>
             {/* right */}
-            <div className="absolute text-[10px] flex items-center top-1 right-[350px]">
+            <div className=" hidden absolute text-[10px] lg:flex items-center top-1 right-[350px] ">
                 <div className="">
-                <button className="bg-[#5c7e10] text-white py-1 px-2 flex items-center hover:bg-[#6C9314] transition"><LuDownload className="text-[18px]"/><p className="ml-2">Install Stean</p></button>
+                <button className="bg-[#5c7e10] text-white py-1 px-2 flex items-center hover:bg-[#6C9314] transition"><LuDownload className="text-[18px]"/><p className="ml-2">Install Steam</p></button>
                 </div>
                 <div className="flex items-center">
-                    <p className="text-white ml-2 border-r pr-2 "><a href="">login</a></p>
-                    <p className="text-white ml-2"><a href="" className="flex items-center">language <BiSolidDownArrow className="text-[8px] ml-1"/></a></p>
+                    <p className="text-white ml-2 border-r pr-2 "><a href="#">login</a></p>
+                    <p className="text-white ml-2"><a href="#" className="flex items-center">language <BiSolidDownArrow className="text-[8px] ml-1"/></a></p>
                 </div>
             </div>
         </div>
